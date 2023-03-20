@@ -19,6 +19,45 @@ export const categories = [
         offers: "50% upto 100",
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "30 min",
+        variety: "Biryani, Andhra, North Indian, Seafood",
+        menu: [
+          {
+            id: "6afd4c44-c480-11ed-afa1-0242ac120002",
+            name: "Non Veg Biryani Rice",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a8/6f704e1ce89695884a44befd2608b7a8.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: 210,
+            votes: 27,
+            rating: 3.5,
+            description: "",
+          },
+          {
+            id: "7c12173a-c480-11ed-afa1-0242ac120002",
+            name: "Chicken Boneless Biryani",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a8/6f704e1ce89695884a44befd2608b7a8.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: 295,
+            votes: 1127,
+            rating: 4.5,
+            description:
+              "We use long grain basmati rice, and the boneless pieces of chicken are cooked in our own andra spice blend. it is spicy and served with raita and gravy. it serves two",
+          },
+        ],
+      },
+      {
+        id: "f3605410-c718-11ed-afa1-0242ac120002",
+        name: "Behrouz Biryani",
+        images: [
+          "https://b.zmtcdn.com/data/dish_photos/b50/3d2666a701f71397c4f1432f935c3b50.jpg",
+          "https://b.zmtcdn.com/data/pictures/3/18343993/e559b2aee1b89bd6c7e1cef2a5290173.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+        ],
+        address: "Residency Road, Bangalore",
+        estimatedAmount: "250 for one",
+        rating: 4.3,
+        offers: "50% upto 100",
+        totalordersDelivered: "19500 orders placed in last month",
+        expectedDelivery: "30 min",
+        variety: "Biryani, Andhra, North Indian, Seafood",
         menu: [
           {
             id: "6afd4c44-c480-11ed-afa1-0242ac120002",
@@ -45,6 +84,7 @@ export const categories = [
       },
     ],
   },
+
   {
     title: "Cakes",
     id: "861123a2-c480-11ed-afa1-0242ac120002",
@@ -65,6 +105,7 @@ export const categories = [
         offers: "50% upto 100",
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "40 min",
+        variety: "Bakery, Desserts, Cafe, Beverages",
         menu: [
           {
             id: "93d24368-c480-11ed-afa1-0242ac120002",
@@ -113,6 +154,7 @@ export const categories = [
         offers: "50% upto 100",
         totalordersDelivered: "2875 orders placed in last month",
         expectedDelivery: "48 min",
+        variety: "Pizza, Fast Food, Desserts, Beverages",
         menu: [
           {
             id: "b67ee42a-c480-11ed-afa1-0242ac120002",
@@ -152,6 +194,7 @@ export const categories = [
         offers: "50% upto 100",
         totalordersDelivered: "2875 orders placed in last month",
         expectedDelivery: "48 min",
+        variety: "Pizza, Italian, Fast Food, Desserts, Beverages",
         menu: [
           {
             id: "b67ee42a-c480-11ed-afa1-0242ac120002",
