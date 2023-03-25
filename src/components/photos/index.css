@@ -1,0 +1,4 @@
+.photoscontainer{
+    display: flex;
+    flex-direction: column;
+}

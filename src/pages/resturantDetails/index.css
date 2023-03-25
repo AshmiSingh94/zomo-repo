@@ -1,0 +1,56 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+.details-images-container{
+    padding: 0 20px 20px 20px;
+}
+.detail-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 20px;
+}
+.details-items {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.details-item-name {
+  font-size: 25px;
+  font-weight: 600;
+}
+.details-item-rating {
+  width: 45px;
+  height: 20px;
+  background-color: green;
+  color: #fff;
+  padding: 5px;
+}
+.share-details {
+  display: flex;
+  gap: 10px;
+}
+.resturant-details-tabs {
+  display: flex;
+  gap: 55px;
+  border-bottom: 1px solid #c2c2c2;
+  padding-top: 20px;
+}
+.resturant-details-tab-item {
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.active-tab {
+  border-bottom: 2px solid red;
+  color: red;
+}
+
+.resturant-tabs-details{
+    padding: 0 20px;
+}
