@@ -98,7 +98,7 @@ function ResturantDetails() {
       {currentView === "OVERVIEW" ? (
         <OverView />
       ) : currentView === "ORDER_ONLINE" ? (
-        <OrderOnline />
+        <OrderOnline menuItems={resturantsDetails.menuItems}/>
       ) : currentView === "REVIEWS" ? (
         <Reviews />
       ) : currentView === "PHOTOS" ? (

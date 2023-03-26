@@ -20,7 +20,7 @@ export const categories = [
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "30 min",
         variety: "Biryani, Andhra, North Indian, Seafood",
-        menu: [
+        menuItems: [
           {
             id: "6afd4c44-c480-11ed-afa1-0242ac120002",
             name: "Non Veg Biryani Rice",
@@ -58,7 +58,7 @@ export const categories = [
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "30 min",
         variety: "Biryani, Andhra, North Indian, Seafood",
-        menu: [
+        menuItems: [
           {
             id: "6afd4c44-c480-11ed-afa1-0242ac120002",
             name: "Non Veg Biryani Rice",
@@ -106,7 +106,7 @@ export const categories = [
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "40 min",
         variety: "Bakery, Desserts, Cafe, Beverages",
-        menu: [
+        menuItems: [
           {
             id: "93d24368-c480-11ed-afa1-0242ac120002",
             name: "Rasmalai Cake [Pure Eggless Cake]",
@@ -155,7 +155,7 @@ export const categories = [
         totalordersDelivered: "2875 orders placed in last month",
         expectedDelivery: "48 min",
         variety: "Pizza, Fast Food, Desserts, Beverages",
-        menu: [
+        menuItems: [
           {
             id: "b67ee42a-c480-11ed-afa1-0242ac120002",
             name: "Veg Pizza",
@@ -195,7 +195,7 @@ export const categories = [
         totalordersDelivered: "2875 orders placed in last month",
         expectedDelivery: "48 min",
         variety: "Pizza, Italian, Fast Food, Desserts, Beverages",
-        menu: [
+        menuItems: [
           {
             id: "b67ee42a-c480-11ed-afa1-0242ac120002",
             name: "Veg Pizza",
