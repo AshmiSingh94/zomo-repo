@@ -64,28 +64,40 @@ function ResturantDetails() {
           </Button>
         </div>
         <div className="resturant-details-tabs">
-          <div className={`resturant-details-tab-item ${currentView === "OVERVIEW"?'active-tab':''}`}
+          <div
+            className={`resturant-details-tab-item ${
+              currentView === "OVERVIEW" ? "active-tab" : ""
+            }`}
             onClick={() => {
               setCurrentView("OVERVIEW");
             }}
           >
             Overview
           </div>
-          <div className={`resturant-details-tab-item ${currentView === "ORDER_ONLINE"?'active-tab':''}`}
+          <div
+            className={`resturant-details-tab-item ${
+              currentView === "ORDER_ONLINE" ? "active-tab" : ""
+            }`}
             onClick={() => {
               setCurrentView("ORDER_ONLINE");
             }}
           >
             Order Online
           </div>
-          <div className={`resturant-details-tab-item ${currentView === "REVIEWS"?'active-tab':''}`}
+          <div
+            className={`resturant-details-tab-item ${
+              currentView === "REVIEWS" ? "active-tab" : ""
+            }`}
             onClick={() => {
               setCurrentView("REVIEWS");
             }}
           >
             Reviews
           </div>
-          <div className={`resturant-details-tab-item ${currentView === "PHOTOS"?'active-tab':''}`}
+          <div
+            className={`resturant-details-tab-item ${
+              currentView === "PHOTOS" ? "active-tab" : ""
+            }`}
             onClick={() => {
               setCurrentView("PHOTOS");
             }}
@@ -95,17 +107,20 @@ function ResturantDetails() {
         </div>
       </div>
       <div className="resturant-tabs-details">
-      {currentView === "OVERVIEW" ? (
-        <OverView />
-      ) : currentView === "ORDER_ONLINE" ? (
-        <OrderOnline menuItems={resturantsDetails.menuItems}/>
-      ) : currentView === "REVIEWS" ? (
-        <Reviews />
-      ) : currentView === "PHOTOS" ? (
-        <Photos items={resturantsDetails?.images||[]}/>
-      ) : (
-        ""
-      )}
+        {currentView === "OVERVIEW" ? (
+          <OverView  menuItems={resturantsDetails?.menuItems}/>
+        ) : currentView === "ORDER_ONLINE" ? (
+          <OrderOnline menuItems={resturantsDetails?.menuItems} />
+        ) : currentView === "REVIEWS" ? (
+          <Reviews
+            name={resturantsDetails?.name}
+            reviews={resturantsDetails?.reviewItems}
+          />
+        ) : currentView === "PHOTOS" ? (
+          <Photos items={resturantsDetails?.images || []} />
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

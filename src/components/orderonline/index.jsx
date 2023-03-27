@@ -6,7 +6,6 @@ import MenuCategories from '../menucategories'
 
 export default function OrderOnline(props) {
   const { menuItems } = props;
-  console.log("menuItems", menuItems);
   return (
     <div className="OrderOnline-container">
       <div className="OrderOnline-left">

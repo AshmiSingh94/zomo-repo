@@ -13,6 +13,7 @@ export const categories = [
           "https://b.zmtcdn.com/data/pictures/1/50691/92d9b4053ef0965120828b4fa4eecc3b.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
           "https://b.zmtcdn.com/data/pictures/chains/1/50691/02e6b550b407ab291604e5bcab7a81ba.jpg?fit=around|300:273&crop=300:273;*,*",
         ],
+        menuImage:"https://b.zmtcdn.com/data/menus/937/58937/9a2f389724f7ba109d0e8ea11b381ffb.jpg",
         address: "Residency Road, Bangalore",
         estimatedAmount: "250 for one",
         rating: 4.3,
@@ -36,11 +37,36 @@ export const categories = [
             name: "Chicken Boneless Biryani",
             imageurl:
               "https://b.zmtcdn.com/data/dish_photos/7a8/6f704e1ce89695884a44befd2608b7a8.jpg?fit=around|130:130&crop=130:130;*,*",
+              menuImage:"https://b.zmtcdn.com/data/menus/937/58937/9a2f389724f7ba109d0e8ea11b381ffb.jpg",
             price: 295,
             votes: 1127,
             rating: 4.5,
             description:
               "We use long grain basmati rice, and the boneless pieces of chicken are cooked in our own andra spice blend. it is spicy and served with raita and gravy. it serves two",
+          },
+        ],
+        reviewItems: [
+          {
+            id: "ab730730-cc6b-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV71Z06E-QF-tCVPApPFZNbNKvFj25xihirA&usqp=CAU",
+            name: "Surakshya Joshi",
+            rating: 1,
+            reviewNumber: "4 reviews",
+            follower: "0 follower",
+            description: "1 extra ratia I dont get in my order",
+          },
+
+          {
+            id: "c5322ca6-cc8d-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2UWAQvNHLhB1AQKpmkNk9pDUU0XFdUHf4Qw&usqp=CAU",
+            name: "Joe Robert",
+            rating: 1,
+            reviewNumber: "3 reviews",
+            follower: "0 follower",
+            description:
+              "the quantity of the food has become too less. never gonna order again from here.",
           },
         ],
       },
@@ -79,6 +105,29 @@ export const categories = [
             rating: 4.5,
             description:
               "We use long grain basmati rice, and the boneless pieces of chicken are cooked in our own andra spice blend. it is spicy and served with raita and gravy. it serves two",
+          },
+        ],
+        reviewItems: [
+          {
+            id: "ab730730-cc6b-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV71Z06E-QF-tCVPApPFZNbNKvFj25xihirA&usqp=CAU",
+            name: "Emily Dunphy",
+            rating: 1,
+            follower: "0 follower",
+            reviewNumber: "4 reviews",
+            description: "1 extra ratia I dont get in my order",
+          },
+          {
+            id: "c5322ca6-cc8d-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2UWAQvNHLhB1AQKpmkNk9pDUU0XFdUHf4Qw&usqp=CAU",
+            name: "Alex Anderson",
+            rating: 1,
+            reviewNumber: "3 reviews",
+            follower: "0 follower",
+            description:
+              "the quantity of the food has become too less. never gonna order again from here.",
           },
         ],
       },
@@ -130,6 +179,29 @@ export const categories = [
               "Rich and smooth Death by Chocolate is a creamy madness defined by its chocolate sauce and filling. Gooey, soft chocolatey heaven that melts into your mouth upon the first bite.",
           },
         ],
+        reviewItems: [
+          {
+            id: "ab730730-cc6b-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV71Z06E-QF-tCVPApPFZNbNKvFj25xihirA&usqp=CAU",
+            name: "Jane Rosenburg",
+            rating: 1,
+            reviewNumber: "4 reviews",
+            follower: "0 follower",
+            description: "The cake quality and taste was not as expected",
+          },
+          {
+            id: "c5322ca6-cc8d-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2UWAQvNHLhB1AQKpmkNk9pDUU0XFdUHf4Qw&usqp=CAU",
+            name: "Rony Tucker",
+            rating: 1,
+            reviewNumber: "3 reviews",
+            follower: "0 follower",
+            description:
+              "it was of old stock there was smell it was hard and taste was also not good",
+          },
+        ],
       },
     ],
   },
@@ -179,6 +251,28 @@ export const categories = [
               "Roasted chicken, onion & fresh basil pesto loaded with cheese on cheese",
           },
         ],
+        reviewItems: [
+          {
+            id: "ab730730-cc6b-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV71Z06E-QF-tCVPApPFZNbNKvFj25xihirA&usqp=CAU",
+            name: "Nisha Bam",
+            rating: 1,
+            reviewNumber: "4 reviews",
+            follower: "0 follower",
+            description: "delivery is worst",
+          },
+          {
+            id: "c5322ca6-cc8d-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2UWAQvNHLhB1AQKpmkNk9pDUU0XFdUHf4Qw&usqp=CAU",
+            name: "Sam Shyam",
+            rating: 1,
+            reviewNumber: "3 reviews",
+            follower: "0 follower",
+            description: "Very less seasoning in meat balls",
+          },
+        ],
       },
       {
         id: "aa4b518e-c480-11ed-afa1-0242ac120012",
@@ -217,6 +311,28 @@ export const categories = [
             rating: 4,
             description:
               "Roasted chicken, onion & fresh basil pesto loaded with cheese on cheese",
+          },
+        ],
+        reviewItems: [
+          {
+            id: "ab730730-cc6b-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV71Z06E-QF-tCVPApPFZNbNKvFj25xihirA&usqp=CAU",
+            name: "Prajikta Pandey",
+            rating: 1,
+            reviewNumber: "4 reviews",
+            follower: "0 follower",
+            description: "pizza base was too hard",
+          },
+          {
+            id: "c5322ca6-cc8d-11ed-afa1-0242ac120002",
+            image:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2UWAQvNHLhB1AQKpmkNk9pDUU0XFdUHf4Qw&usqp=CAU",
+            name: "Joe Mars",
+            rating: 1,
+            reviewNumber: "3 reviews",
+            follower: "0 follower",
+            description: "too expensive for this meal",
           },
         ],
       },
