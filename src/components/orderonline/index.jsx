@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import SearchIcon from "@mui/icons-material/Search";
 import ClearIcon from "@mui/icons-material/Clear";
+import MenuCategories from '../menucategories'
 
 export default function OrderOnline(props) {
   const { menuItems } = props;
@@ -9,7 +10,7 @@ export default function OrderOnline(props) {
   return (
     <div className="OrderOnline-container">
       <div className="OrderOnline-left">
-        <div> Menu Today's Exclusive Dishes (3)</div>
+        <MenuCategories/>
       </div>
       <div className="OrderOnline-right">
         <div className="OrderOnline-right-header">
