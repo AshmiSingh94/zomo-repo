@@ -17,6 +17,7 @@ function ResturantDetails() {
   const [resturantsDetails, setResturantDetails] = useState(null);
   const navigate = useNavigate();
   const [currentView, setCurrentView] = useState("OVERVIEW");
+
   React.useEffect(() => {
     const selectedCategory = categories.find((item) => item.id === categoryid);
     if (selectedCategory) {
@@ -106,22 +107,29 @@ function ResturantDetails() {
           </div>
         </div>
       </div>
-      <div className="resturant-tabs-details">
-        {currentView === "OVERVIEW" ? (
-          <OverView  menuItems={resturantsDetails?.menuItems}/>
-        ) : currentView === "ORDER_ONLINE" ? (
-          <OrderOnline menuItems={resturantsDetails?.menuItems} />
-        ) : currentView === "REVIEWS" ? (
-          <Reviews
-            name={resturantsDetails?.name}
-            reviews={resturantsDetails?.reviewItems}
-          />
-        ) : currentView === "PHOTOS" ? (
-          <Photos items={resturantsDetails?.images || []} />
-        ) : (
-          ""
-        )}
-      </div>
+      {resturantsDetails && (
+        <div className="resturant-tabs-details">
+          {currentView === "OVERVIEW" ? (
+            <OverView
+              menuImage={resturantsDetails.menuImage}
+              popularDishes={resturantsDetails.popularDishes}
+              estimatedAmount={resturantsDetails.estimatedAmount}
+              cuisines={resturantsDetails.cuisines}
+            />
+          ) : currentView === "ORDER_ONLINE" ? (
+            <OrderOnline menuItems={resturantsDetails.menuItems} />
+          ) : currentView === "REVIEWS" ? (
+            <Reviews
+              name={resturantsDetails.name}
+              reviews={resturantsDetails.reviewItems}
+            />
+          ) : currentView === "PHOTOS" ? (
+            <Photos items={resturantsDetails.images || []} />
+          ) : (
+            ""
+          )}
+        </div>
+      )}
     </div>
   );
 }

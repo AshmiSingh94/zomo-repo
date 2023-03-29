@@ -1,0 +1,55 @@
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.overview-menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.overview-menu--title {
+  font-weight: 600;
+}
+.overview-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cuisines-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cuisines-details-title {
+  font-weight: 400;
+  font-size: 22px;
+}
+.popular-dishes-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.popular-dishes-title {
+  font-weight: 400;
+  font-size: 22px;
+}
+.popular-dishes-name {
+  font-weight: 300;
+}
+.average-cost-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.average-cost-title {
+  font-weight: 400;
+  font-size: 22px;
+}
+.average-cost-amount {
+  font-weight: 300;
+}
+.button-field{
+    display: flex;
+    gap:10px
+}
