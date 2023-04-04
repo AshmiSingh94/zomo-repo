@@ -117,7 +117,7 @@ function ResturantDetails() {
               cuisines={resturantsDetails.cuisines}
             />
           ) : currentView === "ORDER_ONLINE" ? (
-            <OrderOnline menuItems={resturantsDetails.menuItems} />
+            <OrderOnline menuItems={resturantsDetails.menuItems} categories={resturantsDetails.category} />
           ) : currentView === "REVIEWS" ? (
             <Reviews
               name={resturantsDetails.name}

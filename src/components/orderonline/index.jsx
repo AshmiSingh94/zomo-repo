@@ -5,11 +5,12 @@ import ClearIcon from "@mui/icons-material/Clear";
 import MenuCategories from '../menucategories'
 
 export default function OrderOnline(props) {
-  const { menuItems } = props;
+  const { menuItems,categories } = props;
   return (
     <div className="OrderOnline-container">
       <div className="OrderOnline-left">
-        <MenuCategories/>
+        <MenuCategories categories={categories}/>
+        
       </div>
       <div className="OrderOnline-right">
         <div className="OrderOnline-right-header">
@@ -26,7 +27,7 @@ export default function OrderOnline(props) {
         </div>
         <div className="OrderOnline-right-menu-items">
             {menuItems.map((item)=>(
-                <div className="menu-item" key={item.id}>
+                <div className="menu-item" key={item.id} id={item.category}>
                     <img src={item.imageurl} width="100px" height="100px" alt=""/>
                     <div className="menu-item-details">
                         <div className="menu-item-details-title">{item.name}</div>

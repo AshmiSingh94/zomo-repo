@@ -1,8 +1,15 @@
 import React from 'react'
-
-function MenuCategories() {
+import './index.css'
+function MenuCategories(props) {
+  const {categories}=props
   return (
-    <div>MenuCategories</div>
+    <div className='menu-categories'>
+      {categories.map((item)=>(
+        <div className='menu-categories-items' key={item.id}>
+          <a href={`#${item.key}`}>{item.label}</a>
+        </div>
+      ))}
+    </div>
   )
 }
 

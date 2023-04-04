@@ -1,0 +1,10 @@
+.menu-categories {
+  display: flex;
+  flex-direction: column;
+}
+.menu-categories-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 15px;
+}

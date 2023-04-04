@@ -13,7 +13,8 @@ export const categories = [
           "https://b.zmtcdn.com/data/pictures/1/50691/92d9b4053ef0965120828b4fa4eecc3b.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
           "https://b.zmtcdn.com/data/pictures/chains/1/50691/02e6b550b407ab291604e5bcab7a81ba.jpg?fit=around|300:273&crop=300:273;*,*",
         ],
-        menuImage:"https://b.zmtcdn.com/data/menus/937/58937/9a2f389724f7ba109d0e8ea11b381ffb.jpg",
+        menuImage:
+          "https://b.zmtcdn.com/data/menus/937/58937/9a2f389724f7ba109d0e8ea11b381ffb.jpg",
         address: "Residency Road, Bangalore",
         estimatedAmount: "250 for one",
         rating: 4.3,
@@ -21,32 +22,154 @@ export const categories = [
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "30 min",
         variety: "Biryani, Andhra, North Indian, Seafood",
-        
-        popularDishes:" Mix Veg Curry, Panner Biryani, Chicken Boneless, Mutton Pepper, Lemon Chicken, Chicken 65",
+
+        popularDishes:
+          " Mix Veg Curry, Panner Biryani, Chicken Boneless, Mutton Pepper, Lemon Chicken, Chicken 65",
         menuItems: [
           {
             id: "6afd4c44-c480-11ed-afa1-0242ac120002",
             name: "Non Veg Biryani Rice",
-            menuImage:"https://b.zmtcdn.com/data/menus/937/58937/9a2f389724f7ba109d0e8ea11b381ffb.jpg",
+            menuImage:
+              "https://b.zmtcdn.com/data/menus/937/58937/9a2f389724f7ba109d0e8ea11b381ffb.jpg",
             imageurl:
               "https://b.zmtcdn.com/data/dish_photos/7a8/6f704e1ce89695884a44befd2608b7a8.jpg?fit=around|130:130&crop=130:130;*,*",
             price: 210,
             votes: 27,
             rating: 3.5,
             description: "",
-          
+            category: "",
           },
           {
             id: "7c12173a-c480-11ed-afa1-0242ac120002",
             name: "Chicken Boneless Biryani",
             imageurl:
-              "https://b.zmtcdn.com/data/dish_photos/7a8/6f704e1ce89695884a44befd2608b7a8.jpg?fit=around|130:130&crop=130:130;*,*",
-            
+              "https://b.zmtcdn.com/data/dish_photos/f8a/20042ceab67859cbc6a7de58e4cabf8a.jpg?fit=around|130:130&crop=130:130;*,*",
+
             price: 295,
             votes: 1127,
             rating: 4.5,
+            category: "",
             description:
               "We use long grain basmati rice, and the boneless pieces of chicken are cooked in our own andra spice blend. it is spicy and served with raita and gravy. it serves two",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac129002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac128002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac127002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac126002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac125002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac124002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac123002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac122002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "407b7da6-d2ae-11ed-afa1-0242ac121002",
+            name: "Meghana Chicken 555",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/7a1/b17c7e79d89bf5164f85729b71f017a1.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: "295",
+            votes: 178,
+            rating: 4.5,
+            category:"",
+            description:
+              "Boneless, long strips of chicken are pan-fried with our freshly made andra spice mix, garlic, fresh chilies, and curry leaves. it is pretty spicy.",
+          },
+          {
+            id: "1bc32a4e-d2af-11ed-afa1-0242ac120002",
+            name: "Paneer Biryani",
+            imageurl:
+              "https://b.zmtcdn.com/data/dish_photos/e3e/3cbd6cf28731f5dadde865a4db130e3e.jpg?fit=around|130:130&crop=130:130;*,*",
+            price: 290,
+            rating: 4.5,
+            votes: 602,
+            description: "",
+            category: "Reccomended",
           },
         ],
         reviewItems: [
@@ -73,15 +196,36 @@ export const categories = [
               "the quantity of the food has become too less. never gonna order again from here.",
           },
         ],
-        cuisines:[
+        cuisines: [
           {
-            id:"cc5503c6-cd61-11ed-afa1-0242ac120002",
-            cusineOne:"Biryanai",
-            cusineTwo:"Andhra",
-            cusineThree:"North Indian"
+            id: "cc5503c6-cd61-11ed-afa1-0242ac120002",
+            cusineOne: "Biryanai",
+            cusineTwo: "Andhra",
+            cusineThree: "North Indian",
           },
-        ]
-
+        ],
+        category: [
+          {
+            id:"824de91a-d2ce-11ed-afa1-0242ac120002",
+            key:"Reccomended",
+            label:"Reccomended"
+          },
+          {
+            id:"824de91a-d2ce-11ed-afa1-0242ac120002",
+            key:"veg-starter",
+            label:"Veg Starter"
+          },
+          {
+            id:"824de91a-d2ce-11ed-afa1-0242ac120002",
+            key:"veg-biryani",
+            label:"Veg Biryani"
+          },
+          {
+            id:"824de91a-d2ce-11ed-afa1-0242ac120002",
+            key:"Non-veg-biryani",
+            label:"Non Veg biryani"
+          }
+        ],
       },
       {
         id: "f3605410-c718-11ed-afa1-0242ac120002",
@@ -90,7 +234,8 @@ export const categories = [
           "https://b.zmtcdn.com/data/dish_photos/b50/3d2666a701f71397c4f1432f935c3b50.jpg",
           "https://b.zmtcdn.com/data/pictures/3/18343993/e559b2aee1b89bd6c7e1cef2a5290173.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
         ],
-        menuImage:"https://b.zmtcdn.com/data/menus/136/20037136/78f9beef3872d494793420b0f41fa8f0.jpg",
+        menuImage:
+          "https://b.zmtcdn.com/data/menus/136/20037136/78f9beef3872d494793420b0f41fa8f0.jpg",
         address: "Residency Road, Bangalore",
         estimatedAmount: "250 for one",
         rating: 4.3,
@@ -98,7 +243,7 @@ export const categories = [
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "30 min",
         variety: "Biryani, Andhra, North Indian, Seafood",
-        popularDishes:"Biryani, Kebab",
+        popularDishes: "Biryani, Kebab",
         menuItems: [
           {
             id: "6afd4c44-c480-11ed-afa1-0242ac120002",
@@ -109,6 +254,7 @@ export const categories = [
             votes: 27,
             rating: 3.5,
             description: "",
+            category: "",
           },
           {
             id: "7c12173a-c480-11ed-afa1-0242ac120002",
@@ -145,14 +291,17 @@ export const categories = [
               "the quantity of the food has become too less. never gonna order again from here.",
           },
         ],
-        cuisines:[
+        cuisines: [
           {
-            id:"cc5503c6-cd61-11ed-afa1-0242ac120002",
-            cusineOne:"Biryanai",
-            cusineTwo:"Andhra",
-            cusineThree:"North Indian"
+            id: "cc5503c6-cd61-11ed-afa1-0242ac120002",
+            cusineOne: "Biryanai",
+            cusineTwo: "Andhra",
+            cusineThree: "North Indian",
           },
-        ]
+        ],
+        category: [
+         
+        ],
       },
     ],
   },
@@ -171,7 +320,8 @@ export const categories = [
           "https://b.zmtcdn.com/data/pictures/chains/0/19374760/7013a95bdd5fd0f39b401fa1b287e312.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
           "https://b.zmtcdn.com/data/pictures/chains/0/19374760/a7b2b636cc44b0892b2911f985f4c5d1.jpg?fit=around|300:273&crop=300:273;*,*",
         ],
-        menuImage:"https://b.zmtcdn.com/data/menus/301/19900301/8e4ee5eec5f7f564d8fddfea0cc7bb39.jpg",
+        menuImage:
+          "https://b.zmtcdn.com/data/menus/301/19900301/8e4ee5eec5f7f564d8fddfea0cc7bb39.jpg",
         address: "Domlur, Bangalore",
         estimatedAmount: "250 for one",
         rating: 4.3,
@@ -179,7 +329,8 @@ export const categories = [
         totalordersDelivered: "19500 orders placed in last month",
         expectedDelivery: "40 min",
         variety: "Bakery, Desserts, Cafe, Beverages",
-        popularDishes:"chocolate cake, red velvet cake, death by chocolate, black forest cake",
+        popularDishes:
+          "chocolate cake, red velvet cake, death by chocolate, black forest cake",
         menuItems: [
           {
             id: "93d24368-c480-11ed-afa1-0242ac120002",
@@ -227,14 +378,17 @@ export const categories = [
               "it was of old stock there was smell it was hard and taste was also not good",
           },
         ],
-        cuisines:[
+        cuisines: [
           {
-            id:"cc5503c6-cd61-11ed-afa1-0242ac120002",
-            cusineOne:"Biryanai",
-            cusineTwo:"Andhra",
-            cusineThree:"North Indian"
+            id: "cc5503c6-cd61-11ed-afa1-0242ac120002",
+            cusineOne: "Biryanai",
+            cusineTwo: "Andhra",
+            cusineThree: "North Indian",
           },
-        ]
+        ],
+        category: [
+         
+        ],
       },
     ],
   },
@@ -253,7 +407,8 @@ export const categories = [
           "https://b.zmtcdn.com/data/pictures/chains/1/51571/febc50057b5b05092fe1a8e16b4f90c1.jpg?fit=around|300:273&crop=300:273;*,*",
           "https://b.zmtcdn.com/data/pictures/chains/1/51571/50db0d85a46628be602216137b59cd85.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
         ],
-        menuImage:"https://b.zmtcdn.com/data/menus/972/2300972/f64f57a3605f9f356e68f82f9752d642.jpg",
+        menuImage:
+          "https://b.zmtcdn.com/data/menus/972/2300972/f64f57a3605f9f356e68f82f9752d642.jpg",
         address: "Jayanagar, Bangalore",
         estimatedAmount: "100 for one",
         rating: 3.9,
@@ -261,7 +416,8 @@ export const categories = [
         totalordersDelivered: "2875 orders placed in last month",
         expectedDelivery: "48 min",
         variety: "Pizza, Fast Food, Desserts, Beverages",
-        popularDishes:" mix veg sandwich, chocolate sandwich, chaat, panipuri, masala puri",
+        popularDishes:
+          " mix veg sandwich, chocolate sandwich, chaat, panipuri, masala puri",
         menuItems: [
           {
             id: "b67ee42a-c480-11ed-afa1-0242ac120002",
@@ -308,14 +464,17 @@ export const categories = [
             description: "Very less seasoning in meat balls",
           },
         ],
-        cuisines:[
+        cuisines: [
           {
-            id:"cc5503c6-cd61-11ed-afa1-0242ac120002",
-            cusineOne:"Biryanai",
-            cusineTwo:"Andhra",
-            cusineThree:"NorthIndian"
-          }
-        ]
+            id: "cc5503c6-cd61-11ed-afa1-0242ac120002",
+            cusineOne: "Biryanai",
+            cusineTwo: "Andhra",
+            cusineThree: "NorthIndian",
+          },
+        ],
+        category: [
+          
+        ],
       },
       {
         id: "aa4b518e-c480-11ed-afa1-0242ac120012",
@@ -325,7 +484,8 @@ export const categories = [
           "https://b.zmtcdn.com/data/pictures/chains/1/51571/febc50057b5b05092fe1a8e16b4f90c1.jpg?fit=around|300:273&crop=300:273;*,*",
           "https://b.zmtcdn.com/data/pictures/chains/1/51571/50db0d85a46628be602216137b59cd85.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
         ],
-        menuImage:"https://b.zmtcdn.com/data/menus/644/19178644/81e8c1084f7880e48cb2258f67087c24.jpg",
+        menuImage:
+          "https://b.zmtcdn.com/data/menus/644/19178644/81e8c1084f7880e48cb2258f67087c24.jpg",
         address: "Jayanagar, Bangalore",
         estimatedAmount: "100 for one",
         rating: 3.9,
@@ -333,7 +493,8 @@ export const categories = [
         totalordersDelivered: "2875 orders placed in last month",
         expectedDelivery: "48 min",
         variety: "Pizza, Italian, Fast Food, Desserts, Beverages",
-        popularDishes:"  All Veggies Madness Pizza, Cowboy Chicken Pizza, Peri Peri Paneer Pizza",
+        popularDishes:
+          "  All Veggies Madness Pizza, Cowboy Chicken Pizza, Peri Peri Paneer Pizza",
         menuItems: [
           {
             id: "b67ee42a-c480-11ed-afa1-0242ac120002",
@@ -380,14 +541,17 @@ export const categories = [
             description: "too expensive for this meal",
           },
         ],
-        cuisines:[
+        cuisines: [
           {
-            id:"cc5503c6-cd61-11ed-afa1-0242ac120002",
-            cusineOne:"Biryanai",
-            cusineTwo:"Andhra",
-            cusineThree:"North Indian"
+            id: "cc5503c6-cd61-11ed-afa1-0242ac120002",
+            cusineOne: "Biryanai",
+            cusineTwo: "Andhra",
+            cusineThree: "North Indian",
           },
-        ]
+        ],
+        category: [
+         
+        ],
       },
     ],
   },
